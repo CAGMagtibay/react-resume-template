@@ -17,6 +17,10 @@ const Footer: FC = memo(() => (
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
       </div>
+      <span className="text-sm text-neutral-700">This website was built thanks to Tim Baker's template, found here:
+        <a className="text-sm text-neutral-700" href="https://github.com/tbakerx/react-resume-template"> https://github.com/tbakerx/react-resume-template</a>
+      </span>
+      
       <span className="text-sm text-neutral-700">© Copyright 2022 Tim Baker</span>
     </div>
   </div>
