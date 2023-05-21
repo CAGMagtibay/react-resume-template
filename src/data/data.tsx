@@ -104,7 +104,7 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'SE Pennsylvania', Icon: MapIcon},
+    {label: 'Location', text: 'Pennsylvania', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Filipino-American', Icon: FlagIcon},
     {label: 'Interests', text: 'Sports, Music, New experiences', Icon: SparklesIcon},
