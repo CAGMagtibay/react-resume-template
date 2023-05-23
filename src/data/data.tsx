@@ -264,20 +264,45 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: 'August 2016 - December 2020',
+    location: 'Pennsylvania State University',
+    title: 'Bachelor of Science in Computer Engineering',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    date: 'September 2012 - May 2016',
+    location: 'La Salle College High School',
+    title: 'High School Diploma',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'March 2010 - Present',
+    location: 'Awesome Development Company',
+    title: 'Senior UX Engineer',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'Garage Startup Studio',
+    title: 'Junior bug fixer',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+];
+
+export const certifications: TimelineItem[] = [
   {
     date: 'March 2010 - Present',
     location: 'Awesome Development Company',
