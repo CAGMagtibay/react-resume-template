@@ -20,7 +20,12 @@ const Resume: FC = memo(() => {
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </ResumeSection>
-        <ResumeSection title="Licenses & Certifications">
+        <ResumeSection title="Certifications">
+          {experience.map((item, index) => (
+            <TimelineItem item={item} key={`${item.title}-${index}`} />
+          ))}
+        </ResumeSection>
+        <ResumeSection title="Leadership & Involvement">
           {experience.map((item, index) => (
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}

@@ -73,6 +73,9 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        <strong className="text-stone-100">Welcome to my website!</strong>
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Pennsylvania-based <strong className="text-stone-100">Full-Stack Software Engineer</strong>, currently searching for new opportunities
         and working to develop and expand my technical skillset!
       </p>
@@ -265,7 +268,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'August 2016 - December 2020',
-    location: 'Pennsylvania State University',
+    location: 'Pennsylvania State University - College of Engineering',
     title: 'Bachelor of Science in Computer Engineering',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
@@ -279,20 +282,9 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'July 2018 - July 2019',
+    location: 'FNX Fitness',
+    title: 'Brand Ambassador',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -304,9 +296,9 @@ export const experience: TimelineItem[] = [
 
 export const certifications: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'January 2019 - August 2019',
+    location: 'Pennsylvania State Univeristy - Smeal College of Business',
+    title: 'Smeal College Business Fundamentals Certificate',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -314,10 +306,13 @@ export const certifications: TimelineItem[] = [
       </p>
     ),
   },
+];
+
+export const leadership: TimelineItem[] = [
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'January 2019 - August 2019',
+    location: 'Pennsylvania State Univeristy - Smeal College of Business',
+    title: 'Smeal College Business Fundamentals Certificate',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
