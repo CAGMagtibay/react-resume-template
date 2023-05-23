@@ -124,16 +124,16 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
-        level: 10,
+        name: 'English (native language)',
+        level: 0,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Spanish (elementary proficiency)',
+        level: 0,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'French (learning)',
+        level: 0,
       },
     ],
   },
@@ -168,23 +168,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'Golang',
         level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -267,16 +250,28 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: 'February 2023 - April 2023',
+    location: 'Revature',
+    title: 'Pre-Employment Program Training',
+    content: <p>
+               Describe your experience at school, what you learned, what useful skills you have acquired etc.
+             </p>,
+  },
+  {
     date: 'August 2016 - December 2020',
-    location: 'Pennsylvania State University - College of Engineering',
+    location: 'College of Engineering - Pennsylvania State University - University Park, PA',
     title: 'Bachelor of Science in Computer Engineering',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>
+               Describe your experience at school, what you learned, what useful skills you have acquired etc.
+             </p>,
   },
   {
     date: 'September 2012 - May 2016',
-    location: 'La Salle College High School',
+    location: 'La Salle College High School - Wyndmoor, PA',
     title: 'High School Diploma',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>
+               Describe your experience at school, what you learned, what useful skills you have acquired etc.
+             </p>,
   },
 ];
 
@@ -296,8 +291,8 @@ export const experience: TimelineItem[] = [
 
 export const certifications: TimelineItem[] = [
   {
-    date: 'January 2019 - August 2019',
-    location: 'Pennsylvania State Univeristy - Smeal College of Business',
+    date: 'Issued August 2019',
+    location: 'Smeal College of Business - Pennsylvania State University - University Park, PA',
     title: 'Smeal College Business Fundamentals Certificate',
     content: (
       <p>
@@ -310,9 +305,42 @@ export const certifications: TimelineItem[] = [
 
 export const leadership: TimelineItem[] = [
   {
-    date: 'January 2019 - August 2019',
-    location: 'Pennsylvania State Univeristy - Smeal College of Business',
-    title: 'Smeal College Business Fundamentals Certificate',
+    date: 'March 2019 - December 2020',
+    location: 'The PUSO Foundation',
+    title: 'College Outreach Ambassador',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2018 - December 2020',
+    location: 'Pennsylvania State University - University Park, PA',
+    title: 'Eta Kappa Nu (EECS Honor Society)',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2017',
+    location: 'Vanguard - Malvern, PA',
+    title: "Vanguard's IT EXPLORE Program",
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2016 - December 2019',
+    location: 'Pennsylvania State University - University Park, PA',
+    title: 'Penn State Filipino Association',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
