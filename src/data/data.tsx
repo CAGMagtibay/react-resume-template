@@ -332,11 +332,11 @@ export const leadership: TimelineItem[] = [
     location: 'Vanguard - Malvern, PA',
     title: "Vanguard's IT EXPLORE Program",
     content: (
-      <ul>
-        <li>Selected among peers to participate in an early talent identification program</li>
-        <li>Networked with Vanguard professionals and honed key communication skills</li>
-        <li>Participated in team building activities involving problem solving and gained exposure to working in the finance and IT industries</li>
-      </ul>
+      <p>
+        - Selected among peers to participate in an early talent identification program
+        - Networked with Vanguard professionals and honed key communication skills
+        - Participated in team building activities involving problem solving and gained exposure to working in the finance and IT industries
+      </p>
     ),
   },
   {
