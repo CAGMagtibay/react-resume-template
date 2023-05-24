@@ -262,8 +262,8 @@ export const education: TimelineItem[] = [
     location: 'College of Engineering - Pennsylvania State University - University Park, PA',
     title: 'Bachelor of Science in Computer Engineering',
     content:  <p>
-                Related Coursework: Data Structures and Algorithms, Web Design, Object-Oriented Programming with Web-Based Applications,
-                Operating Systems, Computer Architecture, Marketing, Management & Organization
+                <p>Related Coursework: Data Structures and Algorithms, Web Design, Object-Oriented Programming with Web-Based Applications,
+                Operating Systems, Computer Architecture, Marketing, Management & Organization</p>
               </p>,
   },
   {
@@ -271,7 +271,7 @@ export const education: TimelineItem[] = [
     location: 'La Salle College High School - Wyndmoor, PA',
     title: 'High School Diploma',
     content:  <p>
-                Related Coursework: AP Physics, AP Calculus
+                <p>Related Coursework: AP Physics, AP Calculus</p>
               </p>,
   },
 ];
@@ -333,9 +333,11 @@ export const leadership: TimelineItem[] = [
     title: "Vanguard's IT EXPLORE Program",
     content: (
       <p>
-        <p>- Selected among peers to participate in an early talent identification program</p>
-        <p>- Networked with Vanguard professionals and honed key communication skills</p>
-        <p>- Participated in team building activities involving problem solving and gained exposure to working in the finance and IT industries</p>
+        <ul>
+          <li>- Selected among peers to participate in an early talent identification program</li>
+          <li>- Networked with Vanguard professionals and honed key communication skills</li>
+          <li>- Participated in team building activities involving problem solving and gained exposure to working in the finance and IT industries</li>
+        </ul>
       </p>
     ),
   },
