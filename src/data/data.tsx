@@ -253,25 +253,26 @@ export const education: TimelineItem[] = [
     date: 'February 2023 - April 2023',
     location: 'Revature',
     title: 'Pre-Employment Program Training',
-    content: <p>
-               Describe your experience at school, what you learned, what useful skills you have acquired etc.
-             </p>,
+    content:  <p>
+                Describe your experience at school, what you learned, what useful skills you have acquired etc.
+              </p>,
   },
   {
     date: 'August 2016 - December 2020',
     location: 'College of Engineering - Pennsylvania State University - University Park, PA',
     title: 'Bachelor of Science in Computer Engineering',
-    content: <p>
-               Describe your experience at school, what you learned, what useful skills you have acquired etc.
-             </p>,
+    content:  <p>
+                Related Coursework: Data Structures and Algorithms, Web Design, Object-Oriented Programming with Web-Based Applications,
+                Operating Systems, Computer Architecture, Marketing, Management & Organization
+              </p>,
   },
   {
     date: 'September 2012 - May 2016',
     location: 'La Salle College High School - Wyndmoor, PA',
     title: 'High School Diploma',
-    content: <p>
-               Describe your experience at school, what you learned, what useful skills you have acquired etc.
-             </p>,
+    content:  <p>
+                Related Coursework: AP Physics, AP Calculus
+              </p>,
   },
 ];
 
@@ -332,8 +333,11 @@ export const leadership: TimelineItem[] = [
     title: "Vanguard's IT EXPLORE Program",
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Selected among peers to participate in an early talent identification program</li>
+          <li>Networked with Vanguard professionals and honed key communication skills</li>
+          <li>Participated in team building activities involving problem solving and gained exposure to working in the finance and IT industries</li>
+        </ul>
       </p>
     ),
   },
