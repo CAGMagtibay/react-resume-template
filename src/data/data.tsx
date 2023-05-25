@@ -178,7 +178,7 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
+    title: 'Social Media Blog API',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage1,
@@ -283,8 +283,10 @@ export const experience: TimelineItem[] = [
     title: 'Brand Ambassador',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>- Promoted the brand's fitness supplements and merchandise through social media posts</li>
+          <li>- Educated potential customers on product offerings</li>
+        </ul>
       </p>
     ),
   },
@@ -297,8 +299,7 @@ export const certifications: TimelineItem[] = [
     title: 'Smeal College Business Fundamentals Certificate',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <p>Related Coursework: Economics, Accounting, Finance, Statistics</p>
       </p>
     ),
   },
@@ -311,8 +312,10 @@ export const leadership: TimelineItem[] = [
     title: 'College Outreach Ambassador',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>- Spread the foundation's mission of aiding underserved communities through the Penn State community</li>
+          <li>- Raised funds for the foundation's cause through merchandise sales and special events</li>
+        </ul>
       </p>
     ),
   },
@@ -347,8 +350,8 @@ export const leadership: TimelineItem[] = [
     title: 'Penn State Filipino Association',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <p>As general member:</p>
+        <p>As secretary:</p>
       </p>
     ),
   },
