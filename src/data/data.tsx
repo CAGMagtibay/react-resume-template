@@ -154,17 +154,58 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'Java',
+        level: 0,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Python',
+        level: 0,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'C',
+        level: 0,
       },
+      {
+        name: 'MATLAB',
+        level: 0,
+      },
+    ],
+  },
+  {
+    name: 'Other technologies',
+    skills: [
+      {
+        name: 'Linux',
+        level: 0,
+      },
+      {
+        name: 'Microsoft Excel',
+        level: 0,
+      },
+      {
+        name: 'Git',
+        level: 0,
+      },
+      {
+        name: 'SolidWorks',
+        level: 0,
+      },
+      {
+        name: 'WordPress',
+        level: 0,
+      },
+      {
+        name: 'Apache JMeter',
+        level: 0,
+      },
+      {
+        name: 'Apache Kafka',
+        level: 0,
+      },
+      {
+        name: 'MongoDB',
+        level: 0,
+      }
     ],
   },
 ];
@@ -270,7 +311,7 @@ export const education: TimelineItem[] = [
     location: 'La Salle College High School - Wyndmoor, PA',
     title: 'High School Diploma',
     content:  <p>
-                <p>Related Coursework: AP Physics, AP Calculus</p>
+                <p>Related Coursework: AP Physics, AP Calculus, Windows Server Administration</p>
               </p>,
   },
 ];
