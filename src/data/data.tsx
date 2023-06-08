@@ -213,7 +213,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Social Media Blog API',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/CAGMagtibay/CAGMagtibay-pep-project',
     image: porfolioImage1,
   },
   {
@@ -225,56 +225,20 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Library System Mini-Project',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/CAGMagtibay/CAGMagtibay-Library',
     image: porfolioImage3,
   },
   {
     title: 'Enhanced Messaging Architecture (Senior Design Project)',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://docs.google.com/document/d/1fjpn-h4Xw-qeK5hjzm2-6Bx18Oe60Sf5DuOhDWuLXaU/edit?usp=sharing',
     image: porfolioImage4,
   },
   {
     title: 'Photo-Sorting Project Using Convolutional Neural Networks',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://docs.google.com/document/d/1lFZ4AfoPS6mr_ng9TXR4u58zQycl3SDnCD757xSqwLw/edit?usp=drive_link',
     image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
   },
 ];
 
