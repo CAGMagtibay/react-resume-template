@@ -165,10 +165,6 @@ export const skills: SkillGroup[] = [
         name: 'C',
         level: 0,
       },
-      {
-        name: 'MATLAB',
-        level: 0,
-      },
     ],
   },
   {
@@ -191,7 +187,7 @@ export const skills: SkillGroup[] = [
         level: 0,
       },
       {
-        name: 'WordPress',
+        name: 'MATLAB',
         level: 0,
       },
       {
@@ -205,7 +201,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'MongoDB',
         level: 0,
-      }
+      },
     ],
   },
 ];
