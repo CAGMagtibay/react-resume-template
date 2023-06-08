@@ -141,16 +141,12 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
-        level: 9,
+        name: 'HTML',
+        level: 0,
       },
       {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
+        name: 'CSS',
+        level: 0,
       },
     ],
   },
@@ -184,25 +180,25 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
+    title: 'Flight Scheduler Mini-Project',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
+    title: 'Library System Mini-Project',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
+    title: 'Enhanced Messaging Architecture (Senior Design Project)',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
+    title: 'Photo-Sorting Project Using Convolutional Neural Networks',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage5,
@@ -254,7 +250,10 @@ export const education: TimelineItem[] = [
     location: 'Revature',
     title: 'Pre-Employment Program Training',
     content:  <p>
-                Describe your experience at school, what you learned, what useful skills you have acquired etc.
+                <ul>
+                  <li>- Developed a functioning social media blog API using Java, SQL, and Javalin as a final project</li>
+                  <li>- Learned technologies such as Java, SQL, and Javalin and used them to complete coding exercises, challenges, and mini-projects</li>
+                </ul>
               </p>,
   },
   {
@@ -325,8 +324,10 @@ export const leadership: TimelineItem[] = [
     title: 'Eta Kappa Nu (EECS Honor Society)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>- Selected from top 25% of class to join</li>
+          <li>- Tutored dozens of peers in courses relating to EECS during weekly open sessions</li>
+        </ul>
       </p>
     ),
   },
@@ -351,7 +352,20 @@ export const leadership: TimelineItem[] = [
     content: (
       <p>
         <p>As general member:</p>
+          <ul>
+            <li>- Provided input on fund-raising concepts and coordinated social events with the sitting executive board</li>
+            <li>- Advocated for cultural diversity and education regarding cultural issues on campus</li>
+          </ul>
         <p>As secretary:</p>
+          <ul>
+            <li>- Worked in an executive board of 11 members to create an exciting, well-rounded experience for general members, 
+              consisting of weekly social/cultural/professional/educational events, collaborations with other student clubs, 
+              and planning and hosting Barrio Fiesta, the club’s annual showcase of Filipino tradition and culture
+            </li>
+            <li>- Managed organization’s mentor/mentee system by creating 40+ new pairs and ensuring current pairs are healthy through regular check-ins</li>
+            <li>- Facilitated the club's communication and marketing through social media networks, the club’s website, and weekly email newsletters</li>
+            <li>- Oversaw organization’s relationships with alumni and the local Filipino-American community; increased alumni turnout for the club’s annual Barrio Fiesta from the previous year</li>
+          </ul>
       </p>
     ),
   },
