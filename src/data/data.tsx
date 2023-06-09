@@ -217,9 +217,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Flight Scheduler Mini-Project',
+    title: 'Flight Tracker Mini-Project',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/CAGMagtibay/CAGMagtibay-FlightTracker',
     image: porfolioImage2,
   },
   {
