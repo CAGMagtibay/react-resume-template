@@ -212,31 +212,31 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Social Media Blog API',
-    description: 'Give a short description of your project here.',
+    description: 'This project was completed as part of a Pre-Employment Program with Revature focused on learning and applying Java, SQL, and Javalin concepts. This project uses those technologies to support user login/registration and message creation/retrieval/deletion within the API.',
     url: 'https://github.com/CAGMagtibay/CAGMagtibay-pep-project',
     image: porfolioImage1,
   },
   {
     title: 'Flight Tracker Mini-Project',
-    description: 'Give a short description of your project here.',
+    description: 'This project was completed as part of a Pre-Employment Program with Revature focused on learning and applying Java, SQL, and Javalin concepts. This project uses those technologies to support flight creation/update/retrieval with filtering.',
     url: 'https://github.com/CAGMagtibay/CAGMagtibay-FlightTracker',
     image: porfolioImage2,
   },
   {
     title: 'Library System Mini-Project',
-    description: 'Give a short description of your project here.',
+    description: 'This project was completed as part of a Pre-Employment Program with Revature focused on learning and applying Java, SQL, and Javalin concepts. This project uses those technologies to support author and book addition/retrieval.',
     url: 'https://github.com/CAGMagtibay/CAGMagtibay-Library',
     image: porfolioImage3,
   },
   {
     title: 'Enhanced Messaging Architecture (Senior Design Project)',
-    description: 'Give a short description of your project here.',
+    description: "This project was completed as part of the senior capstone course at Penn State University. The goal of this project was to drive analytics innovation by creating an enhanced messaging infrastructure consisting of a data management system and a message broker for QuantaVerse's various services, which help companies manage financial crime risks using AI, machine learning, and data analytics tools.",
     url: 'https://docs.google.com/document/d/1fjpn-h4Xw-qeK5hjzm2-6Bx18Oe60Sf5DuOhDWuLXaU/edit?usp=sharing',
     image: porfolioImage4,
   },
   {
     title: 'Photo-Sorting Project Using Convolutional Neural Networks',
-    description: 'Give a short description of your project here.',
+    description: 'This project was completed as as part of a Computer Vision course at Penn State University. The goal was to use MATLAB to implement a convolutional neural network (CNN) to classify a given data set of 10,000 images into 10 categories of images.',
     url: 'https://docs.google.com/document/d/1lFZ4AfoPS6mr_ng9TXR4u58zQycl3SDnCD757xSqwLw/edit?usp=drive_link',
     image: porfolioImage5,
   },
