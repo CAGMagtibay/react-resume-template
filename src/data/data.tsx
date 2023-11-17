@@ -14,7 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-//import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 //import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 //import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 //import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -79,9 +79,6 @@ export const heroData: Hero = {
         I'm a Pennsylvania-based <strong className="text-stone-100">Full-Stack Software Engineer</strong>, currently searching for new opportunities
         and working to develop and expand my technical skillset!
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Outside of programming, I'm an avid fan of soccer, basketball, and football, and I love discovering new music, trying new food, and traveling!
-      </p>
     </>
   ),
   actions: [
@@ -104,9 +101,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I was born and raised in King of Prussia, Pennsylvania. I attended La Salle College High School in Wyndmoor, PA. 
+      I then attended The Pennsylvania State University, where I attained a Bachelor's of Science in Computer Engineering and the Smeal College Business Fundamentals Certificate.
+      Now, I am a developer who is looking to expand my skillset and knowledge base. 
+      Outside of programming, I'm an avid fan of soccer, basketball, and football, and I love discovering new music, trying new food, and traveling`,
   aboutItems: [
     {label: 'Location', text: 'Pennsylvania', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
@@ -148,6 +146,10 @@ export const skills: SkillGroup[] = [
         name: 'CSS',
         level: 0,
       },
+      {
+        name: 'JavaScript',
+        level: 0,
+      },
     ],
   },
   {
@@ -162,6 +164,10 @@ export const skills: SkillGroup[] = [
         level: 0,
       },
       {
+        name: 'SQL',
+        level: 0,
+      },
+      {
         name: 'C',
         level: 0,
       },
@@ -170,6 +176,10 @@ export const skills: SkillGroup[] = [
   {
     name: 'Other technologies',
     skills: [
+      {
+        name: 'Google Suite',
+        level: 0,
+      },
       {
         name: 'Linux',
         level: 0,
@@ -214,31 +224,31 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Social Media Blog API',
     description: 'This project was completed as part of a Pre-Employment Program with Revature focused on learning and applying Java, SQL, and Javalin concepts. This project uses those technologies to support user login/registration and message creation/retrieval/deletion within the API.',
     url: 'https://github.com/CAGMagtibay/CAGMagtibay-pep-project',
-    image: '',
+    image: porfolioImage1,
   },
   {
     title: 'Flight Tracker Mini-Project',
     description: 'This project was completed as part of a Pre-Employment Program with Revature focused on learning and applying Java, SQL, and Javalin concepts. This project uses those technologies to support flight creation/update/retrieval with filtering.',
     url: 'https://github.com/CAGMagtibay/CAGMagtibay-FlightTracker',
-    image: '',
+    image: porfolioImage1,
   },
   {
     title: 'Library System Mini-Project',
     description: 'This project was completed as part of a Pre-Employment Program with Revature focused on learning and applying Java, SQL, and Javalin concepts. This project uses those technologies to support author and book addition/retrieval.',
     url: 'https://github.com/CAGMagtibay/CAGMagtibay-Library',
-    image: '',
+    image: porfolioImage1,
   },
   {
     title: 'Enhanced Messaging Architecture (Senior Design Project)',
     description: "This project was completed as part of the senior capstone course at Penn State University. The goal of this project was to drive analytics innovation by creating an enhanced messaging infrastructure consisting of a data management system and a message broker for QuantaVerse's various services, which help companies manage financial crime risks using AI, machine learning, and data analytics tools.",
     url: 'https://docs.google.com/document/d/1fjpn-h4Xw-qeK5hjzm2-6Bx18Oe60Sf5DuOhDWuLXaU/edit?usp=sharing',
-    image: '',
+    image: porfolioImage1,
   },
   {
     title: 'Photo-Sorting Project Using Convolutional Neural Networks',
     description: 'This project was completed as as part of a Computer Vision course at Penn State University. The goal was to use MATLAB to implement a convolutional neural network (CNN) to classify a given data set of 10,000 images into 10 categories of images.',
     url: 'https://docs.google.com/document/d/1lFZ4AfoPS6mr_ng9TXR4u58zQycl3SDnCD757xSqwLw/edit?usp=drive_link',
-    image: '',
+    image: porfolioImage1,
   },
 ];
 
@@ -293,6 +303,26 @@ export const experience: TimelineItem[] = [
 ];
 
 export const certifications: TimelineItem[] = [
+  {
+    date: 'Issued October 2023',
+    location: 'freeCodeCamp',
+    title: 'freeCodeCamp JavaScript Algorithms & Data Structures Certification',
+    content: (
+      <p>
+        <p>Related Skills: JavaScript, Object-Oriented Programming</p>
+      </p>
+    ),
+  },
+  {
+    date: 'Issued August 2023',
+    location: 'freeCodeCamp',
+    title: 'freeCodeCamp Responsive Web Design Certification',
+    content: (
+      <p>
+        <p>Related Skills: HTML, CSS</p>
+      </p>
+    ),
+  },
   {
     date: 'Issued August 2019',
     location: 'Smeal College of Business - Pennsylvania State University - University Park, PA',
