@@ -286,55 +286,6 @@ export const education: TimelineItem[] = [
   },
 ];
 
-export const experience: TimelineItem[] = [
-  {
-    date: 'July 2018 - July 2019',
-    location: 'FNX Fitness',
-    title: 'Brand Ambassador',
-    content: (
-      <p>
-        <ul>
-          <li>- Promoted the brand's fitness supplements and merchandise through social media posts</li>
-          <li>- Educated potential customers on product offerings</li>
-        </ul>
-      </p>
-    ),
-  },
-];
-
-export const certifications: TimelineItem[] = [
-  {
-    date: 'Issued October 2023',
-    location: 'freeCodeCamp',
-    title: 'freeCodeCamp JavaScript Algorithms & Data Structures Certification',
-    content: (
-      <p>
-        <p>Related Skills: JavaScript, Object-Oriented Programming</p>
-      </p>
-    ),
-  },
-  {
-    date: 'Issued August 2023',
-    location: 'freeCodeCamp',
-    title: 'freeCodeCamp Responsive Web Design Certification',
-    content: (
-      <p>
-        <p>Related Skills: HTML, CSS</p>
-      </p>
-    ),
-  },
-  {
-    date: 'Issued August 2019',
-    location: 'Smeal College of Business - Pennsylvania State University - University Park, PA',
-    title: 'Smeal College Business Fundamentals Certificate',
-    content: (
-      <p>
-        <p>Related Coursework: Economics, Accounting, Finance, Statistics</p>
-      </p>
-    ),
-  },
-];
-
 export const leadership: TimelineItem[] = [
   {
     date: 'March 2019 - December 2020',
@@ -397,6 +348,56 @@ export const leadership: TimelineItem[] = [
             <li>- Facilitated the club's communication and marketing through social media networks, the club’s website, and weekly email newsletters</li>
             <li>- Oversaw organization’s relationships with alumni and the local Filipino-American community; increased alumni turnout for the club’s annual Barrio Fiesta from the previous year</li>
           </ul>
+      </p>
+    ),
+  },
+];
+
+
+export const experience: TimelineItem[] = [
+  {
+    date: 'July 2018 - July 2019',
+    location: 'FNX Fitness',
+    title: 'Brand Ambassador',
+    content: (
+      <p>
+        <ul>
+          <li>- Promoted the brand's fitness supplements and merchandise through social media posts</li>
+          <li>- Educated potential customers on product offerings</li>
+        </ul>
+      </p>
+    ),
+  },
+];
+
+export const certifications: TimelineItem[] = [
+  {
+    date: 'Issued October 2023',
+    location: 'freeCodeCamp',
+    title: 'freeCodeCamp JavaScript Algorithms & Data Structures Certification',
+    content: (
+      <p>
+        <p>Related Skills: JavaScript, Object-Oriented Programming</p>
+      </p>
+    ),
+  },
+  {
+    date: 'Issued August 2023',
+    location: 'freeCodeCamp',
+    title: 'freeCodeCamp Responsive Web Design Certification',
+    content: (
+      <p>
+        <p>Related Skills: HTML, CSS</p>
+      </p>
+    ),
+  },
+  {
+    date: 'Issued August 2019',
+    location: 'Smeal College of Business - Pennsylvania State University - University Park, PA',
+    title: 'Smeal College Business Fundamentals Certificate',
+    content: (
+      <p>
+        <p>Related Coursework: Economics, Accounting, Finance, Statistics</p>
       </p>
     ),
   },
